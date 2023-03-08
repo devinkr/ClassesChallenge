@@ -7,6 +7,8 @@ public class BankAccount {
     private String phone;
 
     public BankAccount() {
+        // call to this must be first line in constructor.
+        this(56789, "Default Name", "Default email", "Default phone");
         System.out.println("Empty Constructor called");
     }
 
